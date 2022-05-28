@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+h3{
+    background-color: lightgoldenrodyellow;
+    color: darkmagenta;
+    padding: 10px;
+}
+
+p{
+    color: darkblue;
+    background-color: lightpink;
+    padding: 10px;
+    font-family: 'Blaka', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}
+
+label{
+    display: block;
+}
+
+#name, #age, #message{
+    width: 100%;
+    padding: 8px;
+}
+
+.button{
+    padding: 12px;
+    border: none;
+    background-color: darkmagenta;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
